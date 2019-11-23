@@ -1,0 +1,228 @@
+body {
+    padding: 0;
+    margin: 0;
+    padding-top: 1em;
+    overflow-y: hidden;
+  }
+  
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+      outline: none;
+  }
+  
+  .nav {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 1.7em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    padding-right: 1.5em;
+    font-size: 16px;
+  }
+  
+  .nav button {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: .5em;
+  }
+  
+  .crazy-buttons {
+    padding-top: .2em;
+    border: none;
+    background: transparent;
+  }
+  
+  .crazy-buttons a {
+    text-decoration: none;
+    color: #6c7079;
+    font-size: smaller;
+  }
+  
+  .crazy-buttons a:hover {
+    text-decoration: underline;
+  }
+  
+  #nav-sign-in {
+    height: 100%;
+    padding: 0 .5em;
+    background: #4487fb;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+  
+  #nav-apps {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 2.5em;
+    height: 2.5em;
+    background: none;
+    padding-bottom: .7em;
+    border: none;
+  }
+  
+  #apps-icon {
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/apps.png");
+    background-size: cover;
+  }
+  
+  .section {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 30em;
+    padding-top: 6em;
+  }
+  
+  .google-container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    height: 65%;
+    margin: auto;
+  }
+  
+  .google-logo {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    height: 30%;
+    margin: auto;
+    padding-left: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .google-logo img {
+    width: auto;
+    height: 99%;
+  }
+  
+  .google-input {
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: 2em;
+  }
+  
+  .search-icon {
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    background-image: url("../images/search.png");
+    background-size: cover;
+    margin-left: .5em;
+    margin-top: .5em;
+  }
+  
+  .voice-icon {
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+    background-image: url("../images/mic.png");
+    background-size: cover;
+    margin-left: 30em;
+    margin-top: .5em;
+  }
+  
+  .google-input input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid #dfe1e5 1px;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  .google-buttons {
+    width: 100%;
+    height: 5em;
+  }
+  
+  .actual-buttons-div {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 52%;
+    height: 2em;
+    margin: auto;
+    margin-bottom: 2em;
+  }
+  
+  .actual-buttons-div button {
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    margin-left: .5em;
+    padding: 0 1em;
+    background: #f2f2f2;
+    color: #6c7079;
+  }
+  
+  .google-offer-div {
+    width: 100%;
+    height: 1em;
+  }
+  
+  .google-offer-div p {
+    font-size: 8pt;
+    text-align: center;
+    color: black;
+  }
+  
+  .footer {
+    width: 100%;
+    height: 6.5em;
+    background: #f2f2f2;
+  }
+  
+  .location {
+    box-sizing: border-box;
+    width: 100%;
+    height: 35%;
+    border-bottom: solid #e4e4e4.5px;
+    border-top: solid #e4e4e4.5px;
+    color: #6c7079;
+    padding-top: 1em;
+    padding-left: 1.5em;
+    font-size: smaller;
+  }
+  
+  .others {
+    width: 100%;
+    height: 65%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-left: 1em;
+  }
+  
+  .about {
+    width: 35%;
+    height: 100%;
+    padding-top: .5em;
+    color: #6c7079;
+  }
+  
+  .terms {
+    width: 20%;
+    height: 100%;
+    padding-top: .5em;
+  }
+  
+  /*# sourceMappingURL=main.css.map */
